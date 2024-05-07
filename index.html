@@ -15,7 +15,7 @@
         <div class="circle"></div>
       </div>
       <div class="email">
-        <p><i class="fa-solid fa-envelope"></i>perfect.clean@gmail.com</p>
+        <p><i class="fa-solid fa-envelope"></i>services.perfectclean@gmail.com</p>
         <p><i class="fa-solid fa-mobile"></i>téléphone : 06 10 24 77 79</p>
       </div>
     <header>
@@ -23,11 +23,11 @@
             <a href="index.html"><img src="./assets/icons/PerfectClean.png" alt="SousLocHome"></a>
             <ul>
               <li>
-                <a href="#Q">Qui sommes-nous?</a>
-              </li>
-              <li>
-                <a href="#N">Nos appartements</a>
-              </li>
+                  <a href="#N">Nos services</a>
+                </li>
+                <li>
+                    <a href="#Q">Qui sommes-nous?</a>
+                </li>
               <li>
                 <a href="#R">Réseaux</a>
               </li>
@@ -35,6 +35,155 @@
             <div id="icons"></div>
           </nav>
     </header>
+    <main>
+        <div class="overlay"></div>
+        <img class="background_home" src="./assets/imgs/overlay.jpg" alt="overlay.home">
+        <section class="container__banniere">
+            <h1>nettoyage professionnel</h1>
+            <p>confiez-nous le soin de rendre votre espace impeccable et éclatant !</p>
+        </section>
+        <section id="N" class="container_services">
+            <h2 class="title">nos services de nettoyage</h2>
+            <section class="container_services">
+                
+                <section class="service" onclick="toggleDescription(this)">
+                    <img src="./assets/imgs/vitre.jpg" alt="Service 1">
+                    <div class="service-info">
+                        <span id="PP">populaire</span>
+                        <h3>Nettoyage de vitres</h3>
+                        <p>✨ Que ce soit pour votre domicile, vos locaux professionnels ou votre boutique, confiez-nous le nettoyage de vos vitres. Brillantes et sans trace, elles illumineront votre espace.</p>
+                        <strong><p>Prix (petite superficie) : 45€</p></strong>
+                        <strong><p>Prix (moyenne superficie) : 60€</p></strong>
+                        <strong><p>Prix (grande superficie) : 80€</p></strong>
+                        <strong><p>Difficile d'accès +20 euros</p></strong>
+                    </div>
+                </section>
+
+                <section class="service" onclick="toggleDescription(this)">
+                    <img src="./assets/imgs/canapé.jpg" alt="Service 1">
+                    <div class="service-info">
+                        <h3>Nettoyage de canapé</h3>
+                        <p>✨ Ravivez l'éclat de votre canapé avec notre méthode d'injection-extraction.</p>
+                        <strong><p>Prix (2 place) :  59€</p></strong>
+                        <strong><p>Prix (3 place) : 69€</p></strong>
+                        <strong><p>Prix (4/5 place) : 89€</p></strong>
+                        <strong><p>Prix (6 place) : 109€</p></strong>
+                        <strong><p>Prix (8 place) : 149€</p></strong>
+                    </div>
+                </section>
+
+                <section class="service" onclick="toggleDescription(this)">
+                    <img src="./assets/imgs/fauteuil.jpg" alt="Service 1">
+                    <div class="service-info">
+                        <h3>Nettoyage de fauteuil</h3>
+                        <p>✨ Rafraîchissez vos fauteuils avec notre nettoyage professionnel. Notre méthode d'injection-extraction et nos produits bio éliminent efficacement les taches pour des fauteuils propres et comme neufs !</p>
+                        <strong><p>Prix : 39€</p></strong>
+                    </div>
+                </section>
+                
+                <section class="service" onclick="toggleDescription(this)">
+                    <img src="./assets/imgs/tapis.jpg" alt="Service 2">
+                    <div class="service-info">
+                        <h3>Nettoyage tapis/moquette</h3>
+                        <p>✨ Offrez une nouvelle jeunesse à vos tapis et moquettes ! Avec notre méthode d'injection-extraction et nos produits bio, dites adieu aux taches et saletés incrustées.</p>
+                        <strong><p>Prix (petite superficie) : 39€</p></strong>
+                        <strong><p>Prix : 49€</p></strong>
+                        <strong><p>Prix : (le m2) : 6€</p></strong>
+                    </div>
+                </section>
+            
+                <section class="service" onclick="toggleDescription(this)">
+                    <img src="./assets/imgs/matelas.jpg" alt="Service 3">
+                    <div class="service-info">
+                        <h3>Nettoyage de matelas</h3>
+                        <p>✨ Rafraîchissez vos matelas avec notre nettoyage professionnel. Notre méthode d'injection-extraction et nos produits bio éliminent efficacement les taches pour des matelas propres et comme neufs !</p>
+                        <strong><p>Prix (1 place recto/verso) :  69€</p></strong>
+                        <strong><p>Prix (2 place recto/verso) : 79€</p></strong>
+                    </div>
+                </section>
+
+                <section class="service" onclick="toggleDescription(this)">
+                    <img src="./assets/imgs/terrasse.avif" alt="Service 3">
+                    <div class="service-info">
+                        <h3>Nettoyage de terrasse</h3>
+                        <p>✨ Donnez une nouvelle jeunesse à votre terrasse grâce à notre service de nettoyage professionnel haute pression. Avec notre expertise, offrez-vous une terrasse éclatante, prête à accueillir vos moments en plein air cet été ! 🌞</p>
+                        <strong><p>Prix : (le m2) : 7.5€</p></strong>
+                    </div>
+                </section>
+
+                <section class="service" onclick="toggleDescription(this)">
+                    <img src="./assets/imgs/airbnb.jpg" alt="Service 3">
+                    <div class="service-info">
+                        <h3>Nettoyage Airbnb</h3>
+                        <p>✨ Chez Perfect Clean, nous définissons une nouvelle norme de propreté. De la gestion complète de votre logement après chaque départ de voyageurs à une expertise sans faille dans le traitement de votre linge.</p>
+                        <strong><p>Prix (Studio) : 25€</p></strong>
+                        <strong><p>Prix (T2) : 30€</p></strong>
+                        <strong><p>Prix (T3) : 40€</p></strong>
+                    </div>
+                </section>
+            
+                <!-- Ajoutez d'autres sections de services ici -->
+            </section>
+        </section>
+        <div class="container">
+            <h2 id="H">nos méthodes de travail</h2>
+            <div class="method">
+                <h2>Nettoyage de textiles</h2>
+                <p>"Le nettoyage par injection d'extraction est une méthode hautement efficace, idéale pour éliminer les saletés les plus incrustées. Cette technique consiste à pulvériser de l'eau chaude mélangée à un agent nettoyant sur le tapis, puis à aspirer l'eau sale à l'aide d'une machine spécialement conçue à cet effet."</p>
+            </div>
+            <div class="method">
+                <h2>Nettoyage haute pression</h2>
+                <p>"Pour l'entretien de vos terrasses, nous utilisons du matériel professionnel et des produits spécifiques adaptés. Notre méthode de nettoyage privilégiée est le lavage haute pression, permettant un nettoyage en profondeur et efficace. Nous traitons chaque terrasse en fonction de son revêtement pour assurer un résultat optimal."</p>
+            </div>
+        </div>
+        <section id="Q" class="about">
+            <div class="container-about">
+              <h2>À propos de nous</h2>
+              <p>Nous sommes une équipe passionnée qui vise à fournir les meilleurs produits et services à nos clients.</p>
+              <p>Notre mission est de rendre la vie de nos clients plus facile et plus agréable en leur offrant des solutions innovantes.</p>
+              <p>Une question ? N'hésitez pas à nous contacter au 06.10.24.77.79.</p>
+              <p>Nous sommes opérationnels dans toute l'Île-de-France ainsi que dans la ville de Sens.</p>
+              <strong><p>Ouvert le :</p></strong>
+              <p>🕓Lundi : 9h à 17h <br>
+                🕓Mardi : 9h à 17h <br>
+                🕓Mercredi : 9h à 17h <br>
+                🕓Jeudi : 9h à 17h <br>
+                🕓Vendredi : 9h à 17h <br>
+                🕓Samedi : 9h à 17h <br>
+                🕓Dimanche : Fermé</p>
+            </div>
+          </section>      
+    </main>
+    <footer id="R">
+        <div class="container_footer">
+            <div class="nav_footer">
+                <h3>navigation</h3>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#N">Nos services</a></li>
+                    <li><a href="#Q">Qui sommes nous ?</a></li>
+                </ul>
+            </div>
+            <div class="social_footer">
+                <h3>suivez-nous</h3>
+                <ul>
+                    <a href="mailto:souslochome@gmail.com" target="_blank">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                    <a href="https://www.instagram.com/souslochome_off/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@souslochome?lang=fr" target="_blank">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="end">
+      <p>© Copyright 2024 | Tous droits reservés | par <span>Perfect Clean</span></p>
+    </div>
     <script src="./js/header.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
