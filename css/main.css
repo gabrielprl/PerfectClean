@@ -134,7 +134,7 @@ nav ul {
     left: 0;
   }
   .email p {
-    font-size: calc(0.5rem + 0.7vw);
+    font-size: calc(0.4rem + 0.7vw);
     gap: 4px;
   }
 }
@@ -194,6 +194,7 @@ main .container_services {
 main .container_services .title {
   text-transform: uppercase;
   position: relative;
+  text-align: center;
 }
 main .container_services .title::after {
   content: "";
